@@ -1,17 +1,18 @@
 # Markdown CheatSheet
 ## Created by NiKole Maxwell
-### Created in conjunction with Team Treehouse Training by Wade Christenson
+*### Created in conjunction with Team Treehouse Training by Wade Christensen*
 
-This is a simple cheatsheet created using the Team Treehouse course "Markdown Basics". Please use this cheatsheet to help you remember Markdown or to refresh your memory if you use it as infrequently as I do. 
+This is a simple cheatsheet created using the Team Treehouse course *"Markdown Basics"*. Please use this cheatsheet to help you remember Markdown or to refresh your memory if you use it as infrequently as I do. 
 
 If you find this project beneficial, please "star" it on GitHub. Thank you!
 
 ***Tip***  In order to see the markdown instructions, this document is best viewed in Notepad or your favorite text editor. 
+
 ---
 ---
 ---
 
-#What is MarkDown?
+# What is MarkDown?
 > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).  - John Gruber
 
 # Headlines 
@@ -46,17 +47,18 @@ This **works** and __works__ too () (double asterisks or double underscore)
 
 ***BOTH*** or ___both___
 
+### Other Formatting
 
 #### Blockquotes
 
 >This is a quote
-> to link spaced paragraphs that are quoted put the greter than sign in the paragraph space line
+> to link spaced paragraphs that are quoted put the greater- than sign in the line space between paragraphs.
 >
 > ^ like that up there.
 
 #### Horizontal Rules
 
-underscores, hypens or asterisks can make horizontal lines
+use underscores, hypens or asterisks to make horizontal lines of separation
 
 3 = golden
 
@@ -70,7 +72,7 @@ ___
 2. Two
 3. Three
 
-  #### Bulleted Lists
+#### Bulleted Lists
 
   * Item One
     * Item Two
@@ -85,7 +87,7 @@ ___
 
 #### Italicized Item
     * Item with no Formatting
-    * Bulleted Item
+    * *Bulleted Item*
 
 * *** Bulleted Bold italicized item ***
 Nested Bulleted Lites 
@@ -94,15 +96,20 @@ Nested Bulleted Lites
 
 Markdown converts text to HTML.
 
-*[HTML]: HyperText Markup Language
+[HTML]: HyperText Markup Language
 
 ---
 
 ## Code
 
-###Inline code
+To display code correctly in Markdown, use backticks before and after the code.
+
+### Inline code
 
 `one backtick`
+
+A single backtick works to do inline coding
+but three backticks works better and will use the sites formatting for code blocks.
 
 ```
 three backticks before and after for code blocks
@@ -110,8 +117,8 @@ three backticks before and after for code blocks
 ### Language identified code
 ```Javascript
 for (var i = 0; i >= 10; i++) {
-    console.log('When you write it like this is looks like formated JS
-    if you put the language name after the first set of backticks')
+    console.log('When you write it like this, is looks like formatted JS.
+    if you put the language name after the first set of backticks' your code will parse accodingly)
 }
 
 ```
@@ -119,6 +126,7 @@ for (var i = 0; i >= 10; i++) {
 ## Links
 
 [Treehouse](https://teamtreehouse.com )
+
 [Treehouse](https://teamtreehouse.com "Link to Treehouse") (shows text on hover)
 
 To do an in document anchor
@@ -126,11 +134,12 @@ To do an in document anchor
 
 [1]: https://teamtreehouse.com "Reference Link to Treehouse"
 
+___
 
-##Email
+## Email
 
 ```
-<receipitent@domain.tld>
+<receipient@domain.tld>
 
 ```
 ---
@@ -141,7 +150,7 @@ Upload to the web (anywhere) then get a link - url for the image
 
  (note images will not show up in this document but will show up on yours)
 
-syntax  [label-alt text](url)
+Syntax  [label-alt text](url)
 
 [Doggies](https://nvy.io/images/doggies.png/300/400)
 
