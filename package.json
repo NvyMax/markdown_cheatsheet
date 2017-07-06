@@ -1,0 +1,30 @@
+{
+  "name": "mastering_markdown",
+  "version": "1.0.0",
+  "description": " a simple cheatsheet for using markdown effecctively",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NvyMax/markdown_cheatsheet.git"
+  },
+  "keywords": [
+    "markdown",
+    "md",
+    "cheatsheet",
+    "nvyio",
+    "quick",
+    "reference",
+    "tools",
+    "for",
+    "teams"
+  ],
+  "author": "NiKole Maxwell | nvy.io",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/NvyMax/markdown_cheatsheet/issues"
+  },
+  "homepage": "https://github.com/NvyMax/markdown_cheatsheet#readme"
+}
